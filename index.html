@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet">
+  <style>
+    /* Write your CSS Code here */
+    .flag{
+      width: 900px;
+      height: 600px;
+      background-color: #ce1126;
+      position: relative;
+    }
+    .flag > p{
+      margin: 0px;
+      position: relative;
+      text-align: center;
+      padding-top: 10px;
+      color: white;
+      font-size: 100px;
+    }
+
+    .flag > div{
+      position: absolute;
+      top: 150px;
+      background-color: #002868;
+      width: 100%;
+      height: 300px;
+    }
+    .flag > div > div {
+      background-color: white;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: relative;
+      text-align: center;
+      top: 50px;
+      left: 350px;
+    }
+    .flag > div > div > p{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 50pt;
+      position: inherit;
+      height: 100%;
+      padding-top: 10px;
+      margin: 0px;
+    }
+  </style>
+</head>
+<body style="background-image: url(https://unverhopft.com/wp-content/uploads/2022/01/mellow_bg.jpg);">
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <hr>
+  <p style="font-family: Edu VIC WA NT Beginner; font-size: 20px; color: rgb(82, 243, 210);">
+    What I learnt: CSS positioning, boxes, calling descendants, linking external stylesheets. <br>
+    Flag is made using 3 div elements.
+  </p>
+</footer>
+</html>
